@@ -26,11 +26,11 @@ created files.
 
 <div align = "center">
 
-| Parameter Name | Accepted Type | Parameter Definition |
-| :---: | :---: | --- |
-| **`value`** | `STRING` or `DATE` | Current Year |
-| **`prefix`** (optional, default "F.Y. ") | `STRING` | Prefix to be added at the beginning of the resolved finanicial year. |
-| **`fmt`** (optional, default "YYYY") | `STRING` | Returns the year in YYYY or YY format depending upon user-preference. |
+| Parameter Name | Accepted Type | Optional Parameter | Default Value | Parameter Definition |
+| :---: | :---: | :---: | :---: | --- |
+| **`value`** | `DATE` | | | Current Year |
+| **`prefix`** | `STRING` | ✔ | "F.Y. " | Prefix to be added at the beginning of the resolved finanicial year. |
+| **`fmt`** | `STRING` | ✔ | "YYYY" | Returns the year in YYYY or YY format depending upon user-preference. |
 
 </div>
 
