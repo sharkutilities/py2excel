@@ -34,6 +34,7 @@ functions to users who wants to convert dates to- and from- calendar to financia
 | **`value`** | `DATE` | | | Current Year |
 | **`prefix`** | `STRING` | ✔ | "F.Y. " | Prefix to be added at the beginning of the resolved finanicial year. |
 | **`fmt`** | `STRING` | ✔ | "YYYY" | Returns the year in YYYY or YY format depending upon user-preference. |
+| **`quarter`** | `BOOLEAN` | ✔ | FALSE | Returns the quarter number for the financial year. |
 
 </div>
 
