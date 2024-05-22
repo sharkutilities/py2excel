@@ -41,4 +41,8 @@ are available:
 
 </div>
 
+👉 Function script is available [here](./scripts/fiscalYear.vb)
+👉 MS Excel add-ins file is available [here](./addins/FiscalYear.xlam)
+👉 Function example is available [here](./scripts/README.md#function-fiscalyear--release-date-21-05-2024)
+
 </div>
