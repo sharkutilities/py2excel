@@ -22,7 +22,7 @@ FUNCTION fiscalYear(value AS DATE, OPTIONAL prefix AS STRING = "F.Y. ", OPTIONAL
     DIM rQuarterNum AS INTEGER
 
     ' ? convert the year into fiscal/financial year format
-    IF YEAR(value) < START_MONTH THEN
+    IF MONTH(value) < START_MONTH THEN
         rStartYear = YEAR(value) - 1
         rFinalYear = YEAR(value)
     ELSE

@@ -25,7 +25,10 @@ created files.
 ### Fiscal Year
 
 The project is inspired from the [`fiscalyear`](https://pypi.org/project/fiscalyear/) library hosted in PyPI. The script provides ready-made
-functions to users who wants to convert dates to- and from- calendar to financial year and vice-versa.
+functions to users who wants to convert dates to- and from- calendar to financial year and vice-versa. The following functions/methods
+are available:
+
+#### Function: `fiscalYear` | Release Date 21-05-2024
 
 <div align = "center">
 
