@@ -22,7 +22,10 @@ functions in `*.vb` file format which can be directly added to a macro-enabled w
 recommended to either add the contents of the `*.vb` in the "Personal Workspace" or directly import the codes using add-ins from the
 created files.
 
-### Fiscal Year ([`fiscalyear`](https://pypi.org/project/fiscalyear/))
+### Fiscal Year
+
+The project is inspired from the [`fiscalyear`](https://pypi.org/project/fiscalyear/) library hosted in PyPI. The script provides ready-made
+functions to users who wants to convert dates to- and from- calendar to financial year and vice-versa.
 
 <div align = "center">
 
