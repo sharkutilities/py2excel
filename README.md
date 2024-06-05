@@ -32,6 +32,10 @@ are available:
 
 <div align = "center">
 
+[![function-script](https://img.shields.io/badge/👨‍💻-Script_File-blue?style=plastic)](./scripts/fiscalYear.vb)
+[![ms-excel-addins](https://img.shields.io/badge/🎉-MS_Excel_AddIns-blue?style=plastic)](./addins/FiscalYear.xlam)
+[![function-example](https://img.shields.io/badge/📜-Function_Example-blue?style=plastic)](./scripts/README.md#function-fiscalyear--release-date-21-05-2024)
+
 | Parameter Name | Accepted Type | Optional Parameter | Default Value | Parameter Definition |
 | :---: | :---: | :---: | :---: | --- |
 | **`value`** | `DATE` | | | Current Year |
@@ -40,9 +44,5 @@ are available:
 | **`quarter`** | `BOOLEAN` | ✔ | FALSE | Returns the quarter number for the financial year. |
 
 </div>
-
-👉 Function script is available [here](./scripts/fiscalYear.vb)
-👉 MS Excel add-ins file is available [here](./addins/FiscalYear.xlam)
-👉 Function example is available [here](./scripts/README.md#function-fiscalyear--release-date-21-05-2024)
 
 </div>
