@@ -21,7 +21,7 @@ are available:
 
 <div align = "center">
 
-| Given Date | Function Input | Function Output |
+| Given Date | Function Input<br>`=fiscalYear(value*, prefix = "F.Y.", fmt = "YYYY", quarter = FALSE)` | Function Output |
 | :---: | :---: | :---: |
 | 01-01-2024 | `=fiscalYear("01-01-2024")` | F.Y. 2023-2024 |
 | 31-01-2024 | `=fiscalYear("31-01-2024","FY ")` | FY 2023-2024 |
