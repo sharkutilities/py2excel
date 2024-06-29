@@ -24,8 +24,8 @@ created files.
 
 ### Fiscal Year
 
-The project is inspired from the [`fiscalyear`](https://pypi.org/project/fiscalyear/) library hosted in PyPI. The script provides ready-made
-functions to users who wants to convert dates to- and from- calendar to financial year and vice-versa. The following functions/methods
+The project is inspired by the [`fiscalyear``](https://pypi.org/project/fiscalyear/) library hosted in PyPI. The script provides ready-made
+functions to users who want to convert dates to and from the calendar to the financial year and vice-versa. The following functions/methods
 are available:
 
 #### Function: `fiscalYear` | Release Date 21-05-2024
@@ -42,6 +42,28 @@ are available:
 | **`prefix`** | `STRING` | ✔ | "F.Y. " | Prefix to be added at the beginning of the resolved finanicial year. |
 | **`fmt`** | `STRING` | ✔ | "YYYY" | Returns the year in YYYY or YY format depending upon user-preference. |
 | **`quarter`** | `BOOLEAN` | ✔ | FALSE | Returns the quarter number for the financial year. |
+
+</div>
+
+### Calculator Functions
+
+The project is intended to provide easy-to-use calculations like fixed deposit, recurring deposit, etc. calculator as an MS Excel plugin.
+Simply integrate the same as add-ins as mentioned. The following functions are available:
+
+#### Function: `fixedDeposit` | Release Date 29-06-2024
+
+<div align = "center">
+
+[![function-script](https://img.shields.io/badge/👨‍💻-Script_File-blue?style=plastic)](./scripts/calculators.vb)
+[![ms-excel-addins](https://img.shields.io/badge/🎉-MS_Excel_AddIns-blue?style=plastic)](./addins/calculators.xlam)
+
+| Parameter Name | Accepted Type | Optional Parameter | Default Value | Parameter Definition |
+| :---: | :---: | :---: | :---: | --- |
+| **`principal`** | `VARIANT` | | | Principal Amount, i.e. A/C Opening Balance |
+| **`rate`** | `VARIANT` | | | The (expected) rate of interest. Rate of interest can be either between 0-1 representing actual value, or 0-100 i.e., percentage. |
+| **`period`** | `VARIANT` | | | Time period, in years/ |
+| **`type_`** | `STRING` | ✔ | "C" | {`C` : Compound Interest, `S` : Simple Interest} |
+| **`type_`** | `STRING` | ✔ | "Q" | {`M` : Monthly Compunded, `Q` : Quarterly Compunded, `Y` : Yearly Compunded} |
 
 </div>
 
