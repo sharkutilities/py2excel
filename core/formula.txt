@@ -1,0 +1,9 @@
+/********************************************************************
+Get the ``UNIQUE`` Count within a ``SUBTOTAL`` Field
+
+Update the ``RANGE`` with the desired data range from the MS-Excel
+to create a count of unique values across a subtotal. Negate value if
+within a table and column header is passed in the range field.
+********************************************************************/
+
+=COUNTA(UNIQUE(FILTER(RANGE, SUBTOTAL(103, OFFSET(RANGE, ROW(RANGE) - MIN(ROW(RANGE)), , 1)))))
